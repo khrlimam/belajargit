@@ -1,0 +1,26 @@
+user@debian:~/Documents/belajargit$ echo 'tambah konten dari mesin berbeda' >> file1 
+user@debian:~/Documents/belajargit$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   file1
+
+no changes added to commit (use "git add" and/or "git commit -a")
+user@debian:~/Documents/belajargit$ git commit -am 'tambah konten'
+[master 959c894] tambah konten
+ 1 file changed, 1 insertion(+)
+user@debian:~/Documents/belajargit$ git push
+Username for 'https://github.com': ki65559@gmail.com
+Password for 'https://ki65559@gmail.com@github.com': 
+Counting objects: 3, done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 322 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/khyrulimam/belajargit.git
+   bc38372..959c894  master -> master
+user@debian:~/Documents/belajargit$ 
+
